@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="hero-container">
+        <!-- Hero picture -->
+        <picture class="hero">
+          <source
+            media="(min-width: 550px)"
+            srcset="./responsive-images-assets/hero-big.jpg"
+          />
+          <source
+            media="(min-width: 320px)"
+            srcset="./responsive-images-assets/hero-small.jpg"
+          />
+          <img src="responsive-images-assets/hero.jpg" />
+        </picture>
+      </div>
+      <!-- profile picture -->
+      <div class="profile-container">
+        <img src="responsive-images-assets/profile.png" />
+      </div>
+      <h1>Daniel McFish</h1>
+    </header>
+    <main class="main">
+      <!-- main -->
+      <div class="gallery cat1">
+        <img src="responsive-images-assets/cat-1.jpg" />
+      </div>
+      <div class="gallery cat2">
+        <img src="responsive-images-assets/cat-2.jpg" />
+      </div>
+      <div class="gallery cat3">
+        <img src="responsive-images-assets/cat-3.jpg" />
+      </div>
+    </main>
+    <footer class="footer">
+      <!-- footer -->
+    </footer>
+  </body>
+</html>

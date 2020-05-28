@@ -1,2 +1,5 @@
-# ux-responsive-images-activity
-Responsive Images practice activity
+# Responsive Images Activity
+
+## Kenzie Academy | UX-5 | UIE Q3
+
+Files for responsive images practice activity are here.

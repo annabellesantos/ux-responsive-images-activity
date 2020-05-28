@@ -1,0 +1,97 @@
+/* Base styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
+/* layout stuff */
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  /*   justify-content: center; main axis*/
+  align-items: center;
+  width: 100%;
+}
+
+/* block styles */
+
+.hero img {
+  object-fit: cover;
+  height: 25vh;
+}
+
+.profile-container {
+  width: 15%;
+}
+
+.profile-container img {
+  border-radius: 50%;
+}
+
+h1 {
+  text-align: center;
+}
+
+/* gallery */
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.gallery {
+  display: flex;
+  /*   flex-direction: column; */
+  width: 20%;
+  margin-top: 10px;
+  max-width: 60%;
+  min-width: 100px;
+  height: 100px;
+}
+
+.gallery img {
+  object-fit: cover;
+  margin: 10px;
+}
+
+.cat1 {
+}
+
+.cat2 {
+}
+
+.cat3 {
+}
+
+/* TABLET ----------------------- */
+
+@media (min-width: 500px) {
+  .main {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .gallery {
+    width: 25%;
+  }
+}
+
+/* DESKTOP ----------------------- */
+
+@media (min-width: 850px) {
+}
